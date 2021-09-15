@@ -11,6 +11,7 @@ int main() {
     rebuild_matrix(&matr1, &matr2);
     output(&matr2, "Final matrix");
     erase(&matr1);
+    erase(&matr1);
     erase(&matr2);
     return 0;
 }
